@@ -8,3 +8,22 @@ if (valo> 20000 || height > 55 ){
 else{
     console.log('onno patro dekh')
 }
+
+// new
+
+const price = 12000;
+
+
+// for 10% discount if you pay more than 5000
+if (price>= 5000){
+
+    let discount = price * 10/ 100;
+    let payAmount= price - discount;
+
+    console.log(payAmount);
+
+} 
+else{
+    console.log(price)
+}
+
